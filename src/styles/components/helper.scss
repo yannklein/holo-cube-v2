@@ -1,0 +1,19 @@
+.orientation-helper {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  color: white;
+  p {
+    margin: 0;
+  }
+  .orient-alpha:before {
+    content: "Alpha: ";
+  }
+  .orient-beta:before {
+    content: "Beta: ";
+  }
+  .orient-gamma:before {
+    content: "Gamma: ";
+  }
+
+}
